@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time Complexity : O(n log n) -- due to sorting (dominant factor)
+// Space Complexity : O(n)   -- due to vector 
 bool compare( pair <int,int> p1, pair<int,int> p2){
     double v1 = (double) p1.first/p1.second;
     double v2 = (double) p2.first/p2.second;
