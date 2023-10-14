@@ -9,8 +9,9 @@
   - [0/1 Knapsack Dynamic Programming explanation](https://www.youtube.com/watch?v=i8NqAEsZn54)
   - [0/1 Knapsack Dynamic Programming Code](https://www.youtube.com/watch?v=PPcpC5QbMx0)
   - [N queen] 
-  - [Job Scheduling with deadlines](https://www.youtube.com/watch?v=zPtI8q9gvX8)
-
+  - [Job Scheduling with deadlines explanation](https://www.youtube.com/watch?v=zPtI8q9gvX8)
+  - [Binomial coefficient dynamic programming](https://www.youtube.com/watch?v=3D_Oj16EtD8)
+  
 
 
 
