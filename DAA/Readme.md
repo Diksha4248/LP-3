@@ -11,6 +11,7 @@
   - [N queen] 
   - [Job Scheduling with deadlines explanation](https://www.youtube.com/watch?v=zPtI8q9gvX8)
   - [Binomial coefficient dynamic programming](https://www.youtube.com/watch?v=3D_Oj16EtD8)
+  - [Quick Sort](https://www.youtube.com/watch?v=-qOVVRIZzao)
   
 
 
