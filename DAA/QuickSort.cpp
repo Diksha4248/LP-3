@@ -13,13 +13,13 @@ int partition(int arr[], int low, int high)
 	int pivot = arr[low];
 	int st = low; // st points to the starting of array
 	int end = high; // end points to the ending of the array
-	int k = high;
+	int j= high;
 	for (int i = high; i > low; i--) {
 		if (arr[i] > pivot)
-			swap(arr[i], arr[k--]);
+			swap(arr[i], arr[j--]);
 	}
-	swap(arr[low], arr[k]);
-	return k;
+	swap(arr[low], arr[j]);
+	return j;
 }
 
 void quickSort(int arr[], int low, int high)
