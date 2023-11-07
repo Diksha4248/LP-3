@@ -21,6 +21,9 @@ int main(){
     }
 
     sort(v.begin(),v.end(), compare);  // sort based on a custom function (which is the value/weight method)
+    for(int i=0;i<v.size();i++){
+        cout<<v[i].first<<" "<<v[i].second<<endl;
+    }
 
     int W; // capacity
     cin>>W;
