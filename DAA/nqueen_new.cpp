@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 bool isSafe(int** arr,int x,int y,int n){
@@ -39,7 +39,8 @@ bool nQueens(int** arr,int x,int n){
     for(int col=0;col<n;col++){
         if(isSafe(arr,x,col,n)){
             arr[x][col]=1;
-            if(nQueens(arr,x+1,n)){
+            if(nQueens(arr,x+1,n))   // for checking rest of the rows  
+            {
                 return true;
             }
             arr[x][col]=0;
@@ -52,7 +53,7 @@ int main()
 {
     int n;
     cin>>n;
-    int arr[n];
+    int **arr = new int*[n];
     for(int i=0;i<n;i++){
         arr[i]=new int[n];
         for(int j=0;j<n;j++){
